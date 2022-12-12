@@ -46,12 +46,12 @@ class _HomeState extends State<Home> {
                     dynamic result =
                         await Navigator.pushNamed(context, '/location');
                     setState(() {
-                      data = {
-                        'time': result['time'],
-                        'location': result['location'],
-                        'isDaytime': result['isDaytime'],
-                        'flag': result['flag'],
-                      };
+                      // data = {
+                      //   'time': result['time'],
+                      //   'location': result['location'],
+                      //   'isDaytime': result['isDaytime'],
+                      //   'flag': result['flag'],
+                      // };
                     });
                   },
                   icon: Icon(
